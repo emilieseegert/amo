@@ -49,6 +49,7 @@ body {
 
     display: flex;
     width: 25%;
+    padding-top: 3%;
     position: absolute;
 
 
@@ -564,10 +565,66 @@ a:link {
 
 }
 
-
-
-
 /* opskrifter.html stop ---------------*/
+
+
+/*footer -----------------*/
+
+
+
+
+
+.footer-container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+    padding-top: 1%;
+    background-color: #848484;
+
+}
+
+.footer-content  {
+    
+     display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+
+    width: 100%;
+    padding: 2%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    color: white;
+
+}
+
+.footer-container img {
+    
+       width: 11%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  
+}
+
+
+
+    
+
+
+    
+
+
+
+/*footer slut  -----------------*/
+
 
 
 /**********************************************/
@@ -638,6 +695,7 @@ a:link {
     .logo img {
 
         width: 13%;
+        padding: 0;
     }
 
 
@@ -753,6 +811,36 @@ a:link {
     }
 
 
+    .footer-container {
+   
+
+    flex-direction: row;
+        padding: 0;
+
+   
+  
+
+
+}
+
+.footer-content  {
+    
+
+    font-size: 10px;
+ 
+
+}
+    
+    .footer-container img {
+        
+        width: 15%;
+        padding-top: 8%;
+     
+    
+  
+  
+}
+
 
 
 }
@@ -837,6 +925,7 @@ a:link {
     .logo img {
 
         width: 11%;
+        padding: 0;
 
     }
 
@@ -966,7 +1055,32 @@ a:link {
 
     }
 
+    .footer-container {
+   
 
+    flex-direction: row;
+        padding: 0;
+
+   
+  
+
+
+}
+
+.footer-content  {
+    
+
+    font-size: 12px;
+ 
+
+}
+    
+    .footer-container img {
+    width: 13%;
+        
+  
+  
+}
 
 
 }
