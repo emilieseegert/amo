@@ -4,7 +4,6 @@
 
     box-sizing: border-box;
     font-family: Futura;
-    font-style: medium;
     font-weight: 100;
 }
 
@@ -257,7 +256,6 @@ body {
     height: 100%;
     margin-top: 3%;
     padding-bottom: 1%;
-    padding-top: %;
     margin-left: 2%;
     margin-right: 2%;
 
@@ -372,7 +370,7 @@ body {
 
 .text {
 
-    //color: aqua;
+   
     font-size: 16px;
     padding: 2%;
 
@@ -579,7 +577,6 @@ a:link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     width: 100%;
     height: 100%;
     padding: 1%;
@@ -597,8 +594,8 @@ a:link {
     flex-direction: column;
     align-items: center;
     font-size: 10px;
-
     width: 100%;
+    height: 100%;
     padding: 2%;
     padding-bottom: 1%;
     padding-top: 2%;
@@ -606,12 +603,30 @@ a:link {
 
 }
 
-.footer-container img {
+
+
+.footer-img {
     
-       width: 11%;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    
+        
+    
+ }   
+
+.footer-img img {
+        
   
+    width: 13%;
+    height: 500%;
+    padding: 2%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+
+    
 }
 
 
@@ -816,6 +831,7 @@ a:link {
 
     flex-direction: row;
         padding: 0;
+       
 
    
   
@@ -831,15 +847,39 @@ a:link {
 
 }
     
-    .footer-container img {
-        
-        width: 15%;
-        padding-top: 8%;
-     
+
     
+    .footer-img {
+    
+
+width: 7%;
+        height: 100%;
+        padding-top: 10%;
+        
+
+    
+        
+       
+        
+    
+ }   
+
+.footer-img img {
+        
   
+    width: 50px;
+
+    padding: 15%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+   
+
+   
   
+
+    
 }
+
 
 
 
@@ -941,9 +981,6 @@ a:link {
 
         display: flex;
         flex: 1;
-        flex-direction: center;
-
-
         width: 100%;
         padding: 3%;
 
@@ -1080,6 +1117,37 @@ a:link {
         
   
   
+}
+    
+        .footer-img {
+    
+
+width: 7%;
+        height: 100%;
+        padding-top: 7%;
+        
+
+    
+        
+       
+        
+    
+ }   
+
+.footer-img img {
+        
+  
+    width: 60px;
+
+    padding: 15%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+   
+
+   
+  
+
+    
 }
 
 
